@@ -15,4 +15,5 @@ def clean_text(text):
     text = text.strip()
     # Remove extra whitespace
     text = ' '.join(text.split())
+    # Added some extra lines for testing purpose
     return text
